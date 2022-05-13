@@ -1,9 +1,14 @@
 import Head from "next/head";
 import Link from "next/link";
-import Script from "next/script";
 import { useEffect } from "react";
 
 const Test = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src =
+      "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js";
+    document.body.append(script);
+  }, []);
   return (
     <>
       <Head>
@@ -74,7 +79,7 @@ const Test = () => {
               // allowFullScreen
             ></iframe>
           </div>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js"></script>
+          {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js"></script> */}
           <div>
             <h1>테스트 유튜브</h1>
             <iframe

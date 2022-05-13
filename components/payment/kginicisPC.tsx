@@ -227,18 +227,27 @@ const KginicisPC = () => {
     console.log("payProps => ", payProps);
   }, [payProps]);
 
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.lang = "javascript";
+    script.type = "text/javascript";
+    script.src = "https://stdpay.inicis.com/stdjs/INIStdPay.js";
+    script.charset = "UTF-8";
+    document.body.append(script);
+  }, []);
+
   /** 마크업 시작 */
   return (
     <>
       {/* inicis 필수 헤더 */}
       <Head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <script
+        <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+        {/* <script
           lang="javascript"
           type="text/javascript"
           src="https://stdpay.inicis.com/stdjs/INIStdPay.js"
           charSet="UTF-8"
-        />
+        /> */}
       </Head>
       {/* inicis 더미 form */}
       <form id="kgpay-pc" onSubmit={handleSubmit(onValid, onInvalid)}>
