@@ -12,15 +12,15 @@ const Terms = () => {
         <br />
         <br />
         제1조 (목적) 본 약관은 RS-TEAM에서 운영하는
-        &quot;https://next-test.rs-team.co.kr에서 제공하는 인터넷 관련
-        서비스(이하 &quot;서비스&quot;라 한다)의 이용에 관한 사항을 규정함을
-        목적으로 합니다.
+        &quot;https://next.test.altf4.co.kr에서 제공하는 인터넷 관련 서비스(이하
+        &quot;서비스&quot;라 한다)의 이용에 관한 사항을 규정함을 목적으로
+        합니다.
         <br />
         <br />
-        제2조 (정의) &quot;회사&quot;란 https://next-test.rs-team.co.kr가 외부
-        및 내부 API를 이용자에게 제공하기 위하여 컴퓨터 등 정보통신 설비를
-        이용하여 기능들을 확인할 수 있도록 설정한 가상의 영업장을 말하며, 아울러
-        그 영업장을 운영하는 사업자의 의미로도 사용합니다. &quot;이용자&quot;란
+        제2조 (정의) &quot;회사&quot;란 https://next.test.altf4.co.kr가 외부 및
+        내부 API를 이용자에게 제공하기 위하여 컴퓨터 등 정보통신 설비를 이용하여
+        기능들을 확인할 수 있도록 설정한 가상의 영업장을 말하며, 아울러 그
+        영업장을 운영하는 사업자의 의미로도 사용합니다. &quot;이용자&quot;란
         &quot;회사&quot;에 로그인하여 본 약관에 따라 &quot;회사&quot;가 제공하는
         서비스를 받는 자를 말합니다. &quot;회원&quot;이란 &quot;회사&quot;와
         &quot;회사&quot; 회원가입계약을 체결한 자를 말합니다.
@@ -33,7 +33,7 @@ const Terms = () => {
         <br />
         <br />
         제3조 (약관의 게시 및 변경) 본 약관은 &quot;회사&quot; 서비스
-        화면(https://next-test.rs-team.co.kr)에 게시되어 있습니다.
+        화면(https://next.test.altf4.co.kr)에 게시되어 있습니다.
         &quot;회사&quot;은 관련 법에 위배하지 않는 범위 내에서 본 약관을 개정할
         수 있으며, 개정 시에는 그 개정 사실 과 개정 후의 약관을 &quot;회사&quot;
         상에 게시합니다. &quot;회사&quot;가 약관을 개정할 경우에는 그 개정약관은

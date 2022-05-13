@@ -9,7 +9,7 @@ const Privacy = () => {
       <h1>개인정보 처리 방침</h1>
       <p>
         주식회사 알에스팀에서 운영하는
-        &apos;https://next-test.rs-team.co.kr&apos;는 고객님의 개인정보를
+        &apos;https://next.test.altf4.co.kr&apos;는 고객님의 개인정보를
         중요시하며, &quot;정보통신망 이용촉진 및 정보보호&quot;에 관한 법률을
         준수하고 있습니다. 회사는 개인정보취급방침을 통하여 고객님께서
         제공하시는 개인정보가 어떠한 용도와 방식으로 이용되고 있으며,
