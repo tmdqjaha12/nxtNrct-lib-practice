@@ -59,6 +59,7 @@ export default NextAuth({
   theme: {
     colorScheme: "light",
   },
+  secret: process.env.NEXTAUTH_SECRET,
   callbacks: {
     async jwt({ token }) {
       token.userRole = "admin";
@@ -67,3 +68,18 @@ export default NextAuth({
   },
 });
 // https://next-test.rs-team.co.kr/api/auth/callback/facebook
+
+// pages: {
+//   signIn: "/auth/signin",
+// },
+// callbacks: {
+//   async session({ session, token, user }) {
+//      session.user.username = session.user.name
+//         .split(" ")
+//         .join("-")
+//         .toLocaleLowerCase();
+
+//      session.user.uid = token.sub;
+//      return session;
+//   },
+// },
