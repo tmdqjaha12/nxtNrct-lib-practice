@@ -60,8 +60,8 @@ const KginicisPC = () => {
     version: "1.0",
     currency: "WON",
     acceptmethod: "below1000",
-    returnUrl: "https://next.test.altf4.co.kr/api/pay/inicisPC",
-    closeUrl: "https://next.test.altf4.co.kr/inicisclose",
+    returnUrl: `${process.env.NEXTAUTH_URL}/api/pay/inicisPC`,
+    closeUrl: `${process.env.NEXTAUTH_URL}/inicisclose`,
   });
 
   // 결제 폼 생성 및 결제 버튼 클릭 -> 결제창 실행

@@ -21,7 +21,7 @@ const InfinityScroll = () => {
   }, []);
 
   const fetchData = async () => {
-    const res = await fetch("https://next.test.altf4.co.kr/api/getMemberList", {
+    const res = await fetch(`${process.env.NEXTAUTH_URL}/api/getMemberList`, {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -36,7 +36,7 @@ const InfinityScroll = () => {
   };
 
   const miniFetchData = async () => {
-    const res = await fetch("https://next.test.altf4.co.kr/api/getMemberList", {
+    const res = await fetch(`${process.env.NEXTAUTH_URL}/api/getMemberList`, {
       method: "POST",
       headers: {
         Accept: "application/json",
