@@ -28,7 +28,7 @@ const Email = () => {
     console.log("contents => ", contents);
     console.log("editor => ", editor);
 
-    const res = await fetch("https://next-test.rs-team.co.kr/api/mail/gmail", {
+    const res = await fetch("https://next.test.altf4.co.kr/api/mail/gmail", {
       method: "POST",
       headers: {
         Accept: "application/json",

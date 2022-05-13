@@ -21,17 +21,14 @@ const InfinityScroll = () => {
   }, []);
 
   const fetchData = async () => {
-    const res = await fetch(
-      "https://next-test.rs-team.co.kr/api/getMemberList",
-      {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ num: num }),
-      }
-    );
+    const res = await fetch("https://next.test.altf4.co.kr/api/getMemberList", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ num: num }),
+    });
     const data = await res.json();
     console.log(data);
     setItems(data);
@@ -39,17 +36,14 @@ const InfinityScroll = () => {
   };
 
   const miniFetchData = async () => {
-    const res = await fetch(
-      "https://next-test.rs-team.co.kr/api/getMemberList",
-      {
-        method: "POST",
-        headers: {
-          Accept: "application/json",
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ num: miniNum }),
-      }
-    );
+    const res = await fetch("https://next.test.altf4.co.kr/api/getMemberList", {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ num: miniNum }),
+    });
     const data = await res.json();
     console.log(data);
     setMiniItems(data);

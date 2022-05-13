@@ -33,7 +33,7 @@ const Test = () => {
             }}
           >
             <iframe
-              // src="https://next-test.rs-team.co.kr/infinityScroll"
+              // src="https://next.test.altf4.co.kr/infinityScroll"
               // src="https://www.jeju-the-rentcar.com/realTimeSearch"
               src="https://www.jeju-the-rentcar.com/realTimeSearch"
               frameBorder="0"
@@ -44,7 +44,7 @@ const Test = () => {
               // allowFullScreen
             ></iframe>
             <iframe
-              // src="https://next-test.rs-team.co.kr/infinityScroll"
+              // src="https://next.test.altf4.co.kr/infinityScroll"
               // src="https://www.jeju-the-rentcar.com/realTimeSearch"
               src="https://mtadm.rs-team.co.kr/admin/etc/bizpartner"
               frameBorder="0"
@@ -55,7 +55,7 @@ const Test = () => {
               // allowFullScreen
             ></iframe>
             <iframe
-              // src="https://next-test.rs-team.co.kr/infinityScroll"
+              // src="https://next.test.altf4.co.kr/infinityScroll"
               // src="https://www.jeju-the-rentcar.com/realTimeSearch"
               src="https://mtjeju.rs-team.co.kr/realTimeSearch?embeded=U2FsdGVkX1+MenlxdHgMZz0mPxCoqb8OR15ucgQLhF9GHG82O9wiZ7omUFbb2YS5fDtBDax+0sIt5gVcsKoKSQ=="
               // src="https://mtjeju.rs-team.co.kr/realTimeSearch"
@@ -68,7 +68,7 @@ const Test = () => {
               // allowFullScreen
             ></iframe>
             <iframe
-              // src="https://next-test.rs-team.co.kr/infinityScroll"
+              // src="https://next.test.altf4.co.kr/infinityScroll"
               // src="https://www.jeju-the-rentcar.com/realTimeSearch"
               src="https://www.youtube.com/watch?v=7wtfhZwyrcc&list=RDEb9KHFx5p34&index=2"
               frameBorder="0"

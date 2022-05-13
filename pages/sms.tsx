@@ -42,7 +42,7 @@ const Sms = () => {
         <input
           type="hidden"
           name="remote_returnurl"
-          value="https://next-test.rs-team.co.kr/sms"
+          value="https://next.test.altf4.co.kr/sms"
         />
         {/* <!-- 발송후 리턴할 주소 형식 : www.test.co.kr/Remote/return.html --> */}
         <input type="hidden" name="remote_num" value="1" />
