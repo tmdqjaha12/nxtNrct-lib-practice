@@ -70,7 +70,7 @@ const Home: NextPage = () => {
         </a>
       </Link>
       {/* https://wazacs.tistory.com/38 */}
-      <Link href="/">
+      <Link href="/reactAnimation">
         <a>
           <h2>1-9. 리액트 애니메이션</h2>
         </a>
@@ -79,6 +79,12 @@ const Home: NextPage = () => {
       <Link href="/">
         <a>
           <h2>1-10. 리액트 차트</h2>
+        </a>
+      </Link>
+      {/* https://www.npmjs.com/package/aos    https://michalsnik.github.io/aos/ */}
+      <Link href="/reactAos">
+        <a>
+          <h2>1-11. 리액트 AOS</h2>
         </a>
       </Link>
       <hr />
