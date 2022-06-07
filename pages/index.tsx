@@ -81,7 +81,7 @@ const Home: NextPage = () => {
           <h2>1-10. 리액트 차트</h2>
         </a>
       </Link>
-      {/* https://www.npmjs.com/package/aos    https://michalsnik.github.io/aos/ */}
+      {/* https://www.npmjs.com/package/aos    https://michalsnik.github.io/aos/  https://github.com/michalsnik/aos*/}
       <Link href="/reactAos">
         <a>
           <h2>1-11. 리액트 AOS</h2>
